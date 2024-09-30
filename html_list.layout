@@ -1,0 +1,14 @@
+<li value="\begin{comment}\comment\end{comment}">
+\begin{author}\format[AuthorLastFirstAbbreviator,AuthorFirstFirst,AuthorAndsCommaReplacer,HTMLChars]{\author}\end{author},
+\begin{title}"\format[HTMLChars]{\title}"\end{title},
+\begin{journal}<i>\format[HTMLChars]{\journal}</i>,\end{journal}
+\begin{booktitle}<i>\format[HTMLChars]{\booktitle}</i>,\end{booktitle}
+\begin{volume}vol. \volume,\end{volume}
+\begin{number}no. \number,\end{number}
+\begin{pages}pp. \format[FormatPagesForHTML]{\pages},\end{pages}
+\begin{month}\month\end{month}
+\begin{year}\year.\end{year}
+\begin{doi}&nbsp;(doi:&nbsp;<a href="https://dx.doi.org/\format{\doi}">\format[HTMLChars]{\doi}</a>)\end{doi}
+\begin{url}&nbsp;(<a href="\format{\url}">pdf</a>)\end{url}
+</li>
+<br>
